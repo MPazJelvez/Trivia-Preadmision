@@ -1,0 +1,68 @@
+
+body {
+  background-color: #EAFFF9  ;
+  text-align:center;
+}
+.imagenes {
+  text-align:center;
+}
+#avatar {
+  display: none;
+}
+#preguntas {
+  display: none;
+}
+#reseteo{
+  display: none;
+}
+#resultado{
+  display: none;
+}
+#play {
+    background-color: #57C0AB; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    }
+
+ #usuario {
+  background-color: #57C0AB; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    }
+    #reset {
+  background-color: #57C0AB; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    }
+    .margen-imagenes {
+  margin: 30px 10px 60px 70px;
+}
+#resultadoboton {
+  background-color: #57C0AB; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    }

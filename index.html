@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia de videojuegos</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<div id="trivia">
+    <h2>Trivia de Videojuegos</h2>
+    <hr/> 
+    Nombre: <input name"username"  id="username" autocomplete="off"/>
+    <button id="usuario" onclick="usuario()">Usuario</button>
+    <br>
+    <br>
+    <img src="https://i.imgur.com/JdrIFCB.jpg" width="" height="300">
+    </img>
+</div>
+
+<div id="avatar">
+  <h1 id="nombre"></h1>
+    <h2> Elige tu avatar: </h2>
+      <div class="imagenes">
+        <div class="margen-imagenes">
+            <input type="radio" id="image1" name="imageuser" value="https://i.imgur.com/WKyoJaB.png
+            "> <img onclick="selectimage('image1')" src="https://i.imgur.com/WKyoJaB.png
+           " style="max-width:100px; border-radius: 10px;"/>
+
+            <input type="radio" id="image2" name="imageuser" value="https://i.imgur.com/bgSplHk.png
+            "> <img onclick="selectimage('image2')"     
+            src="https://i.imgur.com/bgSplHk.png
+            " style="max-width:100px; border-radius: 10px;"/>
+        </div>
+
+          <center id="buttons">
+            <button id="play" onclick="play()">Comenzar Juego</button>
+          </center>
+      </div>
+</div>
+  
+<form>
+<div id="preguntas">
+    <h2>Trivia de Videojuegos</h2>
+    <hr/> 
+    <img id="imageavatar" style="max-width:100px; border-radius: 10px;float: right;"/>
+    <div id=nombreusuario style="float: right;">  </div>
+    <div>
+     <h3>¿Cuál es el protagonista de "La Leyenda de Zelda?</h3>
+     <img src="https://i.imgur.com/nl6kx8y.jpg" width="300" height="300" />
+      <p class="pregunta1"><input type="radio" name="pregunta1" id="p11"> Zelda</p>
+      <p class="pregunta1"><input type="radio" name="pregunta1" id="p12"> Link</p>
+      <p class="pregunta1"><input type="radio" name="pregunta1" id="p13"> Mario.</p>
+    </div>
+
+    <div>
+    <h3>¿Qué es Sonic?</h3>
+    <img src="https://i.imgur.com/HXtFLQ8.png" width="" height="300" />
+    <p class="pregunta2"><input type="radio" name="pregunta2" id="p21"> Un gato</p>
+    <p class="pregunta2"><input type="radio" name="pregunta2" id="p22"> Un perro</p>
+    <p class="pregunta2"><input type="radio" name="pregunta2" id="p23"> Un erizo de tierra</p>
+    </div>
+ 
+    <div>
+    <h3>¿Cómo se llama el reino donde vive Mario?</h3>
+    <img src="https://i.imgur.com/wv9VKvs.jpg" width="300" height="300"/>
+    <p class="pregunta3"><input type="radio" name="pregunta3" id="p31"> Reino Celestial</p>
+    <p class="pregunta3"><input type="radio" name="pregunta3" id="p32"> Reino Champiñón</p>
+    <p class="pregunta3"><input type="radio" name="pregunta3" id="p33"> Reino Monera</p>
+    </div>
+  <input id="resultadoboton" type="button" value=" R E S U L T A D O " onclick="resultado()"/>
+</div>
+
+  <div id="resultado">
+    <h2>Aciertos: 0</h2>
+  <hr></hr>
+  </div>
+  <div id="reseteo">
+   <button id="reset">Volver a Jugar</button>
+  </div>
+</fomr>
+    <script src="script.js"></script>
+  </body>
+</html>
